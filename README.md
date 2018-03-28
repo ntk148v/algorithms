@@ -5,7 +5,7 @@ English | [简体中文](https://github.com/yunshuipiao/algorithms/blob/master/R
 Pythonic Data Structures and Algorithms
 =========================================
 
-Minimal and clean example implementations of data structures and algorithms in Python.
+Minimal and clean example implementations of data structures and algorithms in Python 3.
 
 ## Contributing
 Thanks for your interest in contributing! There are many ways to contribute to this project. [Get started here](CONTRIBUTING.md)
@@ -200,8 +200,10 @@ Thanks for your interest in contributing! There are many ways to contribute to t
         - [serialize_deserialize](tree/bst/serialize_deserialize.py)
         - [successor](tree/bst/successor.py)
         - [unique_bst](tree/bst/unique_bst.py)
-    - [segment-tree](tree/Segment_Tree)
-        - [segment_tree](tree/Segment_Tree/segment_tree.py)
+    - [rbtree](tree/rbtree)
+        - [rbtree](tree/rbtree/rbtree.py)
+    - [segment_tree](tree/segment_tree)
+        - [segment_tree](tree/segment_tree/segment_tree.py)
     - [traversal](tree/traversal)
         - [inorder](tree/traversal/inorder.py)
         - [level_order](tree/traversal/level_order.py)
@@ -228,3 +230,14 @@ Thanks for your interest in contributing! There are many ways to contribute to t
     - [tree](tree/tree.py)
 - [union-find](union-find)
     - [count_islands](union-find/count_islands.py)
+
+## Contributors
+The repo is maintained by  
+
+* [Keon Kim](https://github.com/keon)  
+* [Rahul Goswami](https://github.com/goswami-rahul)
+* [Christian Bender](https://github.com/christianbender)
+* [Ankit Agarwal](https://github.com/ankit167)
+
+And thanks to [all the contributors](https://github.com/keon/algorithms/graphs/contributors) 
+who helped in building the repo.
