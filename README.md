@@ -26,6 +26,7 @@ Thanks for your interest in contributing! There are many ways to contribute to t
     - [three_sum](array/three_sum.py)
     - [two_sum](array/two_sum.py)
     - [move_zeros_to_end](array/move_zeros_to_end.py)
+    - [delete_nth](array/delete_nth.py)
 - [backtrack](backtrack)
     - [general_solution.md](backtrack/)
     - [anagram](backtrack/anagram.py)
@@ -54,7 +55,7 @@ Thanks for your interest in contributing! There are many ways to contribute to t
     - [single_number2](bit/single_number2.py)
     - [single_number](bit/single_number.py)
     - [subsets](bit/subsets.py)
-    - [add_without_operator](bit/add_without_operator.py)
+    - [add_bitwise_operator](bit/add_bitwise_operator.py)
 - [calculator](calculator)
     - [math_parser](calculator/math_parser.py)
 - [dfs](dfs)
@@ -110,6 +111,8 @@ Thanks for your interest in contributing! There are many ways to contribute to t
     - [reverse](linkedlist/reverse.py)
     - [rotate_list](linkedlist/rotate_list.py)
     - [swap_in_pairs](linkedlist/swap_in_pairs.py)
+    - [is_sorted](linkedlist/is_sorted.py)
+    - [remove_range](linkedlist/remove_range.py)
 - [map](map)
     - [hashtable](map/hashtable.py)
     - [longest_common_subsequence](map/longest_common_subsequence.py)
@@ -121,6 +124,7 @@ Thanks for your interest in contributing! There are many ways to contribute to t
     - [gcd/lcm](maths/gcd.py)
     - [generate_strobogrammtic](maths/generate_strobogrammtic.py)
     - [is_strobogrammatic](maths/is_strobogrammatic.py)
+    - [next_bigger](maths/next_bigger.py)
     - [next_perfect_square](maths/next_perfect_square.py)
     - [nth_digit](maths/nth_digit.py)
     - [prime_test](maths/prime_test.py)
@@ -129,7 +133,7 @@ Thanks for your interest in contributing! There are many ways to contribute to t
     - [rabin_miller](maths/rabin_miller.py)
     - [rsa](maths/rsa.py)
     - [sqrt_precision_factor](maths/sqrt_precision_factor.py)
-    - [summing_digits](maths/summing_digits.py)
+    - [summing_digits](maths/summing_digits.py)
 - [matrix](matrix)
     - [bomb_enemy](matrix/bomb_enemy.py)
     - [copy_transform](matrix/copy_transform.py)
@@ -202,8 +206,8 @@ Thanks for your interest in contributing! There are many ways to contribute to t
         - [serialize_deserialize](tree/bst/serialize_deserialize.py)
         - [successor](tree/bst/successor.py)
         - [unique_bst](tree/bst/unique_bst.py)
-    - [rbtree](tree/rbtree)
-        - [rbtree](tree/rbtree/rbtree.py)
+    - [red_black_tree](tree/red_black_tree)
+        - [red_black_tree](tree/red_black_tree/red_black_tree.py)
     - [segment_tree](tree/segment_tree)
         - [segment_tree](tree/segment_tree/segment_tree.py)
     - [traversal](tree/traversal)
@@ -234,12 +238,12 @@ Thanks for your interest in contributing! There are many ways to contribute to t
     - [count_islands](union-find/count_islands.py)
 
 ## Contributors
-The repo is maintained by  
+The repo is maintained by
 
-* [Keon Kim](https://github.com/keon)  
+* [Keon Kim](https://github.com/keon)
 * [Rahul Goswami](https://github.com/goswami-rahul)
 * [Christian Bender](https://github.com/christianbender)
 * [Ankit Agarwal](https://github.com/ankit167)
 
-And thanks to [all the contributors](https://github.com/keon/algorithms/graphs/contributors) 
+And thanks to [all the contributors](https://github.com/keon/algorithms/graphs/contributors)
 who helped in building the repo.
