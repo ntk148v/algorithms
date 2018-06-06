@@ -34,7 +34,7 @@ For running all tests write down:
 ## Install
 If you want to use the API algorithms in your code, it is as simple as:
 
-    $ pip3 install git+https://github.com/keon/algorithms
+    $ pip3 install algorithms
 
 You can test by creating a python file: (Ex: use `merge_sort` in `sort`)
 
@@ -225,8 +225,10 @@ If you want to uninstall algorithms, it is as simple as:
     - [bogo_sort](algorithms/sort/bogo_sort.py)
     - [bubble_sort](algorithms/sort/bubble_sort.py)
     - [bucket_sort](algorithms/sort/bucket_sort.py)
+    - [cocktail_shaker_sort](algorithms/sort/cocktail_shaker_sort.py)
     - [comb_sort](algorithms/sort/comb_sort.py)
     - [counting_sort](algorithms/sort/counting_sort.py)
+    - [gnome_sort](algorithms/sort/gnome_sort.py)
     - [heap_sort](algorithms/sort/heap_sort.py)
     - [insertion_sort](algorithms/sort/insertion_sort.py)
     - [meeting_rooms](algorithms/sort/meeting_rooms.py)
