@@ -1,4 +1,4 @@
-English(README_EN.md) | [简体中文](README_CN.md) | [Deutsch](README_GE.md) | 한국어 | [日本語](README_JP.md)
+[English](README.md) | [简体中文](README_CN.md) | [Deutsch](README_GE.md) | 한국어 | [日本語](README_JP.md)
 
 Python 버전 자료구조 및 알고리즘
 =========================================
@@ -11,7 +11,7 @@ Python 3로 구현한 간단하고 명확한 자료구조와 알고리즘들의 
 
 ## 테스트 종류들
 
-### 단위별 테스트 사용
+### unittest 사용
 아래 명시된 모든 테스트 실행하기:
 
     $ python3 -m unittest discover tests
@@ -167,6 +167,7 @@ if __name__ == "__main__":
     - [base_conversion](algorithms/maths/base_conversion.py)
     - [combination](algorithms/maths/combination.py)
     - [extended_gcd](algorithms/maths/extended_gcd.py)
+    - [factorial](algorithms/maths/factorial.py)
     - [gcd/lcm](algorithms/maths/gcd.py)
     - [generate_strobogrammtic](algorithms/maths/generate_strobogrammtic.py)
     - [is_strobogrammatic](algorithms/maths/is_strobogrammatic.py)
@@ -201,15 +202,18 @@ if __name__ == "__main__":
     - [binary_search](algorithms/search/binary_search.py)
     - [first_occurance](algorithms/search/first_occurance.py)
     - [last_occurance](algorithms/search/last_occurance.py)
+    - [linear_search](algorithms/search/linear_search.py)
     - [search_insert](algorithms/search/search_insert.py)
     - [two_sum](algorithms/search/two_sum.py)
     - [search_range](algorithms/search/search_range.py)
     - [find_min_rotate](algorithms/search/find_min_rotate.py)
     - [search_rotate](algorithms/search/search_rotate.py)
+    - [jump_search](algorithms/search/jump_search.py)
 - [set : 집합](algorithms/set)
     - [randomized_set](algorithms/set/randomized_set.py)
     - [set_covering](algorithms/set/set_covering.py)
 - [sort : 정렬 알고리즘](algorithms/sort)
+    - [bogo_sort](algorithms/sort/bogo_sort.py)
     - [bubble_sort](algorithms/sort/bubble_sort.py)
     - [comb_sort](algorithms/sort/comb_sort.py)
     - [counting_sort](algorithms/sort/counting_sort.py)
