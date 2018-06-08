@@ -4,9 +4,11 @@ from algorithms.sort import (
     bubble_sort,
     comb_sort,
     counting_sort,
+    cycle_sort,
     max_heap_sort, min_heap_sort,
     insertion_sort,
     merge_sort,
+    pancake_sort,
     quick_sort,
     selection_sort,
     bucket_sort,
@@ -46,6 +48,10 @@ class TestSuite(unittest.TestCase):
         self.assertEqual([-1232, -65, -57, -23, -5, -1],
                          counting_sort([-1, -5, -65, -23, -57, -1232]))
 
+    def test_cycle_sort(self):
+        self.assertEqual([1, 5, 23, 57, 65, 1232],
+                         cycle_sort([1, 5, 65, 23, 57, 1232]))
+
     def test_heap_sort(self):
         self.assertEqual([1, 5, 23, 57, 65, 1232],
                          max_heap_sort([1, 5, 65, 23, 57, 1232]))
@@ -60,6 +66,10 @@ class TestSuite(unittest.TestCase):
         self.assertEqual([1, 5, 23, 57, 65, 1232],
                          merge_sort([1, 5, 65, 23, 57, 1232]))
 
+    def test_pancake_sort(self):
+        self.assertEqual([1, 5, 23, 57, 65, 1232],
+                         pancake_sort([1, 5, 65, 23, 57, 1232]))
+        
     def test_quick_sort(self):
         self.assertEqual([1, 5, 23, 57, 65, 1232],
                          quick_sort([1, 5, 65, 23, 57, 1232]))
